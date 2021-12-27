@@ -1,12 +1,9 @@
-
-
 // BORDER RADIUS
 @mixin border-radius($radius){
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     border-radius: $radius;
 }
-
 
 
 //   transition 
@@ -16,7 +13,6 @@
   transition: $transition;
 }
 
-
 //  transform property
 @mixin transform($property){
   -webkit-transform: $property;
@@ -24,20 +20,8 @@
   transform:         $property;
 }
 
-
-
-
 @mixin breakpoint($point) {
-    @if $point == max-xs {
-        @media (max-width: 320px) { @content ; }
-    }
-    @else if $point == max-mobile {
-        @media (max-width: 375px) { @content ; }
-    }
-    @else if $point == mobile {
-        @media (max-width: 425px) { @content ; }
-    }
-    @else if $point == sm {
+    @if $point == sm {
         @media (min-width: 576px) { @content ; }
     }
     @else if $point == max-sm {
@@ -55,6 +39,12 @@
     @else if $point == max-lg {
         @media (max-width: 991px) { @content ; }
     }
+    @else if $point == mlg {
+        @media (min-width: 1024px) { @content ; }
+    }
+    @else if $point == max-mlg {
+        @media (max-width: 1023px) { @content ; }
+    }
     @else if $point == xl {
         @media (min-width: 1200px) { @content ; }
     }
@@ -62,9 +52,15 @@
         @media (max-width: 1199px) { @content ; }
     }
     @else if $point == xxl {
-        @media (min-width: 1400px) { @content ; }
+        @media (min-width: 1440px) { @content ; }
     }
     @else if $point == max-xxl {
-        @media (max-width: 1399px) { @content ; }
+        @media (max-width: 1439px) { @content ; }
+    }
+    @else if $point == xxxl {
+        @media (min-width: 1600px) { @content ; }
+    }
+    @else if $point == max-xxxl {
+        @media (max-width: 1599px) { @content ; }
     }
 }
