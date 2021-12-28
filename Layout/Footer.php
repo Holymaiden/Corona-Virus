@@ -76,10 +76,10 @@
                                                                 </div>
                                                                 <div class="content">
                                                                         <ul class="lab-ul">
-                                                                                <li><a href="#"><i class="icofont-caret-right"></i>Advertiser Agreement</a></li>
-                                                                                <li><a href="#"><i class="icofont-caret-right"></i>Acceptable Use Policy</a></li>
+                                                                                <li><a href="about.php"><i class="icofont-caret-right"></i>About</a></li>
+                                                                                <li><a href="faq.php"><i class="icofont-caret-right"></i>Faq</a></li>
                                                                                 <li><a href="#"><i class="icofont-caret-right"></i>Privacy Policy</a></li>
-                                                                                <li><a href="#"><i class="icofont-caret-right"></i>Technology Privacy</a></li>
+                                                                                <li><a href="contact_v.php"><i class="icofont-caret-right"></i>Contact</a></li>
                                                                                 <li><a href="#"><i class="icofont-caret-right"></i>Developer Agreement</a></li>
                                                                         </ul>
                                                                 </div>
@@ -93,7 +93,7 @@
         <div class="footer-bottom">
                 <div class="container">
                         <div class="section-wrapper">
-                                <p>&copy; 2020 All Rights Reserved. Designed by <a href="https://themeforest.net/user/codexcoder">CodexCoder</a></p>
+                                <p>&copy; 2022 All Rights Reserved. Designed by <a href="https://themeforest.net/user/codexcoder">CodexCoder</a></p>
                         </div>
                 </div>
         </div>
