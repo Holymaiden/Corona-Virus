@@ -1,7 +1,9 @@
 <?php
 $title = 'Covid-19 Shop';
 require_once('./database.php');
-$data = get_data('SELECT `id`, `name`, `description`,`price` FROM `products`');
+$first = (isset($_GET['page']) ? $_GET['page'] - 1 : 1 - 1) * 9;
+$number = get_number_page('SELECT `id`, `name`, `description`,`price` FROM `products`', 9);
+$data = get_data('SELECT `id`, `name`, `description`,`price` FROM `products` LIMIT ' . $first . ',' . 9);
 require_once('./Layout/header.php'); ?>
 
 <!-- Page Header Section Start Here -->
@@ -24,7 +26,7 @@ require_once('./Layout/header.php'); ?>
         <div class="row justify-content-center">
             <div class="col-lg-9 col-12 sticky-widget">
                 <div class="shop-title d-flex flex-wrap justify-content-between">
-                    <p>Showing 01 - 12 of 139 Results</p>
+                    <p>Showing <?= $first + 1 ?> - <?= $number + 1 ?> Results</p>
                     <div class="product-view-mode">
                         <a class="active" data-target="grid"><i class="icofont-ghost"></i></a>
                         <a data-target="list"><i class="icofont-listine-dots"></i></a>
@@ -79,27 +81,11 @@ require_once('./Layout/header.php'); ?>
 
                 <div class="paginations">
                     <ul class="d-flex flex-wrap lab-ul justify-content-center">
-                        <li>
-                            <a href="#">1</a>
-                        </li>
-                        <li class="d-none d-sm-block">
-                            <a href="#">2</a>
-                        </li>
-                        <li class="d-none d-sm-block">
-                            <a href="#" class="active">3</a>
-                        </li>
-                        <li>
-                            <a class="dot">...</a>
-                        </li>
-                        <li class="d-none d-sm-block">
-                            <a href="#">9</a>
-                        </li>
-                        <li class="d-none d-sm-block">
-                            <a href="#">10</a>
-                        </li>
-                        <li>
-                            <a href="#">11</a>
-                        </li>
+                        <?php for ($page = 1; $page <= $number; $page++) {
+                            echo '<li class="d-none d-sm-block">
+                                <a href="shop-page.php?page=' . $page . '">' . $page . '</a>
+                            </li>';
+                        } ?>
                     </ul>
                 </div>
             </div>

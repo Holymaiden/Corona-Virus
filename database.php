@@ -18,3 +18,12 @@ function get_data($query)
         }
         return $rows;
 }
+
+function get_number_page($query, $perPage)
+{
+        global $connect;
+        $result = mysqli_query($connect, $query);
+        $number_of_result = mysqli_num_rows($result);
+
+        return ceil($number_of_result / $perPage);
+}
