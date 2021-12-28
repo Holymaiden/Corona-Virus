@@ -365,14 +365,14 @@ $data = get_api_indo();
 			<div class="section-header wow fadeInUp" data-wow-delay="0.3s">
 				<h2>Bagaimana Cara Mencuci Tangan Mu dengan Benar</h2>
 			</div>
-			<div class="row justify-content-center align-items-center" style=" counter-reset: topx;">
+			<div class="row justify-content-center align-items-center flex-row-reverse" style=" counter-reset: topx;">
 				<div class="col-xl-3 col-lg-4 col-sm-6 col-12 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="safe-item">
 						<div class="safe-thumb">
 							<img src="assets/images/safe/home-3/01.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Wet Hands</h6>
+							<h6>Basahi Tangan</h6>
 						</div>
 					</div>
 				</div>
@@ -382,7 +382,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/02.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Apply Soap</h6>
+							<h6>Oleskan Sabun</h6>
 						</div>
 					</div>
 				</div>
@@ -392,7 +392,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/03.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Rub Hands Palm to palm</h6>
+							<h6>Gosok Telapak Tangan</h6>
 						</div>
 					</div>
 				</div>
@@ -402,7 +402,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/04.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Lather The Back of Both Hands</h6>
+							<h6>Busakan Bagian Belakang Kedua Tangan</h6>
 						</div>
 					</div>
 				</div>
@@ -412,7 +412,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/05.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Scrub Between Your Fingers</h6>
+							<h6>Gosok di Antara Jari-jari</h6>
 						</div>
 					</div>
 				</div>
@@ -422,7 +422,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/06.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Rub The Back of Fingers on The Opposing Palm</h6>
+							<h6>Gosok Punggung Jari Pada Telapak Tangan Lawan</h6>
 						</div>
 					</div>
 				</div>
@@ -432,7 +432,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/07.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Clean Thumbs</h6>
+							<h6>Bersihkan Jempol</h6>
 						</div>
 					</div>
 				</div>
@@ -442,7 +442,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/08.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Wash Fingernails And Fingertips</h6>
+							<h6>Cuci Kuku dan Ujung Jari</h6>
 						</div>
 					</div>
 				</div>
@@ -452,7 +452,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/09.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Rinse Hands</h6>
+							<h6>Bilas Kedua Tangan</h6>
 						</div>
 					</div>
 				</div>
@@ -462,7 +462,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/10.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Dry with a Single Use Towel</h6>
+							<h6>Keringkan dengan Handuk Sekali Pakai</h6>
 						</div>
 					</div>
 				</div>
@@ -472,7 +472,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/11.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Use The Towel to Rurn off The Foucet</h6>
+							<h6>Gunakan Handuk untuk Mematikan Keran</h6>
 						</div>
 					</div>
 				</div>
@@ -482,7 +482,7 @@ $data = get_api_indo();
 							<img src="assets/images/safe/home-3/12.jpg" alt="safe">
 						</div>
 						<div class="safe-content">
-							<h6>Your Hands Are Clean</h6>
+							<h6>Tangan Anda Telah Bersih</h6>
 						</div>
 					</div>
 				</div>
@@ -506,61 +506,61 @@ $data = get_api_indo();
 								<div class="sa-icon sa-green saicon-1">
 									<img src="assets/images/safe/shape/green/01.png" alt="green-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Tetap Dirumah</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-green saicon-2">
 									<img src="assets/images/safe/shape/green/02.png" alt="green-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Gunakan Masker</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-green saicon-3">
 									<img src="assets/images/safe/shape/green/03.png" alt="green-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Cuci Tangan</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-green saicon-4">
 									<img src="assets/images/safe/shape/green/04.png" alt="green-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Memasak Makanan Di Rumah</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-green saicon-5">
 									<img src="assets/images/safe/shape/green/05.png" alt="green-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Konsultasi Ke Dokter</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-red saicon-6">
 									<img src="assets/images/safe/shape/red/01.png" alt="red-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Membeli Makanan di Luar</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-red saicon-7">
 									<img src="assets/images/safe/shape/red/02.png" alt="red-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Berkerumunan</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-red saicon-8">
 									<img src="assets/images/safe/shape/red/03.png" alt="red-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Selalu Bersentuhan dengan Hewan</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-red saicon-9">
 									<img src="assets/images/safe/shape/red/04.png" alt="red-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Berjabat Tangan</p>
 									</div>
 								</div>
 								<div class="sa-icon sa-red saicon-10">
 									<img src="assets/images/safe/shape/red/05.png" alt="red-signal">
 									<div class="saicon-content">
-										<p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).</p>
+										<p>Selalu Keluar Rumah</p>
 									</div>
 								</div>
 							</div>
@@ -569,33 +569,32 @@ $data = get_api_indo();
 				</div>
 				<div class="col-lg-6 col-12 wow fadeInUp" data-wow-delay="0.4s">
 					<div class="sa-content-part">
-						<h2>How to stay Safe Important Percautions</h2>
-						<p>Continuay seize magnetic oportunities via value added imperatives ompetenty plagiarize customized meta-services after interopera supply chains nthuastica embrace portals through high-payoff internal or "organic" sources rogressively engineer cross functional synergy with client-centric </p>
+						<h2>Cara Agar Tetap Aman</h2>
 						<div class="row">
 							<div class="col-lg-6 col-12">
 								<div class="sa-title">
-									<h6><i class="icofont-checked"></i>Things You Should Do</h6>
+									<h6><i class="icofont-checked"></i>Hal yang Harus Anda Lakukan</h6>
 								</div>
 								<ul class="lab-ul">
-									<li><i class="icofont-check-circled"></i>Stay at Home</li>
-									<li><i class="icofont-check-circled"></i>Wear Mask</li>
-									<li><i class="icofont-check-circled"></i>Wash Your Hands</li>
-									<li><i class="icofont-check-circled"></i>Well Done Cooking</li>
-									<li><i class="icofont-check-circled"></i>Seek for a Doctor</li>
-									<li><i class="icofont-check-circled"></i>Avoid Crowed Places</li>
+									<li><i class="icofont-check-circled"></i>Tetap di Rumah</li>
+									<li><i class="icofont-check-circled"></i>Gunakan Masker</li>
+									<li><i class="icofont-check-circled"></i>Selalu Curi Tangan Mu</li>
+									<li><i class="icofont-check-circled"></i>Memasak Makanan Sendiri</li>
+									<li><i class="icofont-check-circled"></i>Temukan Dokter Jika Merasa Sakit</li>
+									<li><i class="icofont-check-circled"></i>Hindari Tempat Ramai</li>
 								</ul>
 							</div>
 							<div class="col-lg-6 col-12">
 								<div class="sa-title">
-									<h6><i class="icofont-not-allowed"></i>Things You Should Avoid</h6>
+									<h6><i class="icofont-not-allowed"></i>Hal yang Harus Anda Hindari</h6>
 								</div>
 								<ul class="lab-ul">
-									<li><i class="icofont-close-circled"></i>Stay at Home</li>
-									<li><i class="icofont-close-circled"></i>Wear Mask</li>
-									<li><i class="icofont-close-circled"></i>Wash Your Hands</li>
-									<li><i class="icofont-close-circled"></i>Well Done Cooking</li>
-									<li><i class="icofont-close-circled"></i>Seek for a Doctor</li>
-									<li><i class="icofont-close-circled"></i>Avoid Crowed Places</li>
+									<li><i class="icofont-close-circled"></i>Selalu Keluar Rumah</li>
+									<li><i class="icofont-close-circled"></i>Tidak Menggunakan Masker</li>
+									<li><i class="icofont-close-circled"></i>Tidak Pernah Mencuci Tangan</li>
+									<li><i class="icofont-check-circled"></i>Membeli Makanan di Luar</li>
+									<li><i class="icofont-close-circled"></i>Menyembunyikan Sakit</li>
+									<li><i class="icofont-close-circled"></i>Selalu Nongkrong</li>
 								</ul>
 							</div>
 						</div>
@@ -840,61 +839,6 @@ $data = get_api_indo();
 		</div>
 	</section>
 	<!-- Blog Section Ending Here -->
-
-	<!-- Sponsor Section Start Here -->
-	<div class="sponsor-section">
-		<div class="container">
-			<div class="section-wrapper wow fadeInUp" data-wow-delay="0.3s">
-				<div class="sponsor-slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/01.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/02.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/03.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/04.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/05.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="sponsor-item">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/06.png" alt="lab-sponsor"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Sponsor Section Ending Here -->
 
 	<!-- Footer Section Start Here -->
 	<footer style="background-image: url(assets/css/bg-image/footer-bg.jpg);">
