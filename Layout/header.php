@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="assets/css/lightcase.css">
         <link rel="stylesheet" href="assets/css/swiper.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <?php if ($title === "Covid-19 Harian") {
+        <?php if ($title === "Covid-19 Harian" || $title === "Covid-19 Provinsi") {
                 echo "<link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css'rel='stylesheet'>
                 <link href='https://cdn.datatables.net/1.11.3/css/dataTables.semanticui.min.css'rel='stylesheet'>";
         } ?>
@@ -42,11 +42,10 @@
                                         <ul class="lab-ul">
                                                 <li class="active"><a href="index.php">Home</a>
                                                 </li>
-                                                <li><a href="#">Pages</a>
+                                                <li><a href="#">Data Covid-19</a>
                                                         <ul class="lab-ul">
-                                                                <li><a href="outbreak.html">Outbreak</a></li>
-                                                                <li><a href="coming-soon.html">ComingSoon</a></li>
-                                                                <li><a href="404.html">404 Page</a></li>
+                                                                <li><a href="harian.php">Harian</a></li>
+                                                                <li><a href="provinsi.php">Provinsi</a></li>
                                                         </ul>
                                                 </li>
                                                 <li><a href="service.html">Prevention</a></li>
@@ -78,11 +77,10 @@
                                                         <ul class="lab-ul">
                                                                 <li class="active"><a href="index.php">Home</a>
                                                                 </li>
-                                                                <li><a href="#">Pages</a>
+                                                                <li><a href="#">Data Covid-19</a>
                                                                         <ul class="lab-ul">
-                                                                                <li><a href="outbreak.html">Outbreak</a></li>
-                                                                                <li><a href="coming-soon.html">ComingSoon</a></li>
-                                                                                <li><a href="404.html">404 Page</a></li>
+                                                                                <li><a href="harian.php">Harian</a></li>
+                                                                                <li><a href="provinsi.php">Provinsi</a></li>
                                                                         </ul>
                                                                 </li>
                                                                 <li><a href="service.html">Prevention</a></li>
