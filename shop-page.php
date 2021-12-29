@@ -43,9 +43,9 @@ require_once('./Layout/header.php'); ?>
                                         <img src="assets/images/shop/01.jpg" alt="shop">
                                     </div>
                                     <div class="product-action-link">
-                                        <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
+                                        <a href="#"><i class="icofont-eye"></i></a>
                                         <a href="#"><i class="icofont-heart"></i></a>
-                                        <a href="#"><i class="icofont-cart-alt"></i></a>
+                                        <a class="view-modal" data-target="#quick_view"><i class="icofont-cart-alt"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
@@ -60,9 +60,9 @@ require_once('./Layout/header.php'); ?>
                                         <img src="assets/images/shop/01.jpg" alt="shop">
                                     </div>
                                     <div class="product-action-link">
-                                        <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
+                                        <a href="#"><i class="icofont-eye"></i></a>
                                         <a href="#"><i class="icofont-heart"></i></a>
-                                        <a href="#"><i class="icofont-cart-alt"></i></a>
+                                        <a class="view-modal" data-target="#quick_view"><i class="icofont-cart-alt"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">

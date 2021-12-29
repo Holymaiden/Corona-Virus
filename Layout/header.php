@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="assets/css/lightcase.css">
         <link rel="stylesheet" href="assets/css/swiper.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <?php if ($title === "Covid-19 Harian") {
+                echo "<link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css'rel='stylesheet'>
+                <link href='https://cdn.datatables.net/1.11.3/css/dataTables.semanticui.min.css'rel='stylesheet'>";
+        } ?>
 
         <title><?= $title ?></title>
 </head>
