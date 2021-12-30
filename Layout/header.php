@@ -83,11 +83,9 @@
                                                                                 <li><a href="provinsi.php">Provinsi</a></li>
                                                                         </ul>
                                                                 </li>
-                                                                <li><a href="service.html">Prevention</a></li>
                                                                 <li><a href="#0">Shop</a>
                                                                         <ul class="lab-ul">
                                                                                 <li><a href="shop-page.php">Products Page</a></li>
-                                                                                <li><a href="shop-single.html">Product Single</a></li>
                                                                                 <li><a href="cart-page.html">Cart Page</a></li>
                                                                         </ul>
                                                                 </li>

@@ -1,7 +1,7 @@
 <?php
 require_once('./database.php');
 $data = query("SELECT `id`, `name`,`slug`, `description`,`price` FROM `products` WHERE `slug`='" . $_GET['name'] . "'");
-$title = $data['name'];
+$title = "Covid-19 | " . $data['name'] . "";
 require_once('./Layout/header.php');
 ?>
 
