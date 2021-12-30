@@ -5,6 +5,7 @@ function query($query)
 {
         global $connect;
         $data = mysqli_query($connect, $query);
+        $data = mysqli_fetch_assoc($data);
         return $data;
 }
 
