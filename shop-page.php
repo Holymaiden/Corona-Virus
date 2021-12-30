@@ -2,8 +2,8 @@
 $title = 'Covid-19 Shop';
 require_once('./database.php');
 $first = (isset($_GET['page']) ? $_GET['page'] - 1 : 1 - 1) * 9;
-$number = get_number_page('SELECT `id`, `name`, `description`,`price` FROM `products`', 9);
-$data = get_data('SELECT `id`, `name`, `description`,`price` FROM `products` LIMIT ' . $first . ',' . 9);
+$number = get_number_page('SELECT `id`, `name`, `slug`, `description`,`price` FROM `products`', 9);
+$data = get_data('SELECT `id`, `name`,`slug`, `description`,`price` FROM `products` LIMIT ' . $first . ',' . 9);
 require_once('./Layout/header.php'); ?>
 
 <!-- Page Header Section Start Here -->
@@ -43,7 +43,7 @@ require_once('./Layout/header.php'); ?>
                                         <img src="assets/images/shop/01.jpg" alt="shop">
                                     </div>
                                     <div class="product-action-link">
-                                        <a href="#"><i class="icofont-eye"></i></a>
+                                        <a href="product.php?name=<?= $v['slug'] ?>"><i class="icofont-eye"></i></a>
                                         <a href="#"><i class="icofont-heart"></i></a>
                                         <a class="view-modal" data-target="#quick_view"><i class="icofont-cart-alt"></i></a>
                                     </div>
@@ -60,7 +60,7 @@ require_once('./Layout/header.php'); ?>
                                         <img src="assets/images/shop/01.jpg" alt="shop">
                                     </div>
                                     <div class="product-action-link">
-                                        <a href="#"><i class="icofont-eye"></i></a>
+                                        <a href="product.php?name=<?= $v['slug'] ?>"><i class="icofont-eye"></i></a>
                                         <a href="#"><i class="icofont-heart"></i></a>
                                         <a class="view-modal" data-target="#quick_view"><i class="icofont-cart-alt"></i></a>
                                     </div>
