@@ -10,7 +10,7 @@ require_once('./Layout/header.php'); ?>
 <section class="page-header">
     <div class="container">
         <div class="page-title">
-            <h2>Products Page</h2>
+            <h2>Shop Page</h2>
             <ul class="breadcrumb lab-ul">
                 <li><a href="index.html">Home</a></li>
                 <li>Shop Page</li>

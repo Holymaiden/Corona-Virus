@@ -1,7 +1,7 @@
 <?php
 require_once('./database.php');
-// $data = get_data("SELECT `id`, `name`,`slug`, `description`,`price` FROM `products` WHERE slug=" . $_GET['name'] . "");
-// $title = $data['name'];
+$data = query("SELECT `id`, `name`,`slug`, `description`,`price` FROM `products` WHERE `slug`='" . $_GET['name'] . "'");
+$title = $data['name'];
 require_once('./Layout/header.php');
 ?>
 
@@ -9,10 +9,10 @@ require_once('./Layout/header.php');
 <section class="page-header">
     <div class="container">
         <div class="page-title">
-            <h2>Product Details Page</h2>
+            <h2><?= $data['name'] ?></h2>
             <ul class="breadcrumb lab-ul">
                 <li><a href="index.html">Home</a></li>
-                <li>Shop Page</li>
+                <li>Product Page</li>
             </ul>
         </div>
     </div>
@@ -73,7 +73,7 @@ require_once('./Layout/header.php');
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="post-content">
-                                <h4>Product Text here</h4>
+                                <h4><?= $data['name'] ?></h4>
                                 <p class="rating">
                                     <i class="icofont-star"></i>
                                     <i class="icofont-star"></i>
@@ -82,9 +82,9 @@ require_once('./Layout/header.php');
                                     <i class="icofont-star"></i>
                                     (3 review)
                                 </p>
-                                <h4>$ 340.00</h4>
-                                <h6>Product Description</h6>
-                                <p>Energistia an deliver atactica metrcs after avsionary Apropria trnsition enterpris an sources applications emerging psd template communities.</p>
+                                <h4><?= $data['price'] ?></h4>
+                                <h6>Description</h6>
+                                <p><?= $data['description'] ?></p>
                                 <form>
                                     <div class="select-product size">
                                         <select>
