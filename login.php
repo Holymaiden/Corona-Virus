@@ -1,3 +1,13 @@
+<?php
+session_start();
+if (isset($_SESSION['username']) && isset($_SESSION['l'])) {
+    if ($_SESSION['l'] == 1)
+        header("Location:dashboard/");
+    else
+        header("Location:index.php");
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -119,7 +129,7 @@
                     var jsonData = JSON.parse(response);
 
                     if (jsonData.success == "1") {
-                        location.href = 'index.php';
+                        location.href = 'login.php';
                     } else if (jsonData.success == "2") {
                         alert('Username atau Password Salah!');
                     } else {
