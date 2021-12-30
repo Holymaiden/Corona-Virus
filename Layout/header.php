@@ -93,7 +93,7 @@
                                                         </ul>
                                                 </div>
                                                 <div class="header-btn">
-                                                        <a href="shop-page.php" class="lab-btn"><span>Protect Yourself</span></a>
+                                                        <a href="login.php" class="lab-btn"><span>Protect Yourself</span></a>
                                                 </div>
                                         </div>
                                 </div>
