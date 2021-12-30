@@ -20,6 +20,14 @@ function get_data($query)
         return $rows;
 }
 
+function get_rows($query)
+{
+        global $connect;
+        $data = mysqli_query($connect, $query);
+        $data = mysqli_num_rows($data);
+        return $data;
+}
+
 function get_number_page($query, $perPage)
 {
         global $connect;

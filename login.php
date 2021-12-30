@@ -37,12 +37,12 @@
         <h5>Sign in</h5>
 
         <!-- form -->
-        <form>
+        <form id="formLogin" action="" method="POST">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username or email" required autofocus>
+                <input name="username" type="text" class="form-control" placeholder="Username or email" required autofocus>
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required>
+                <input name="password" type="password" class="form-control" placeholder="Password" required>
             </div>
             <div class="form-group d-flex justify-content-between">
                 <div class="custom-control custom-checkbox">
@@ -51,7 +51,7 @@
                 </div>
                 <a href="recovery-password.php">Reset password</a>
             </div>
-            <button class="btn btn-primary btn-block">Sign in</button>
+            <button type="submit" value="Login" class="btn btn-primary btn-block">Sign in</button>
             <hr>
             <p class="text-muted">Login with your social media account.</p>
             <ul class="list-inline">
@@ -105,6 +105,30 @@
 
     <!-- App scripts -->
     <script src="dashboard/assets/js/app.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#formLogin').submit(function(e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: 'login_req.php',
+                    data: $(this).serialize(),
+                }).then(function(response) {
+                    console.log(response);
+                    var jsonData = JSON.parse(response);
+
+                    if (jsonData.success == "1") {
+                        location.href = 'index.php';
+                    } else if (jsonData.success == "2") {
+                        alert('Username atau Password Salah!');
+                    } else {
+                        alert('Invalid Credentials!');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
