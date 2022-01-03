@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,6 +91,12 @@
                                                                         </ul>
                                                                 </li>
                                                                 <li><a href="contact.html">Contact</a></li>
+                                                                <?php
+                                                                if (isset($_SESSION['username'])) {
+                                                                        if ($_SESSION['username'] != null)
+                                                                                echo '<li><a href="logout.php">Log Out</a></li>';
+                                                                }
+                                                                ?>
                                                         </ul>
                                                 </div>
                                                 <div class="header-btn">
